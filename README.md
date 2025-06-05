@@ -1,6 +1,14 @@
 # Data Pro Stack
 
-A comprehensive Docker-based data analysis and workflow automation stack featuring:
+A comprehensive Docker-based stack for data engineering automation, data analytics, and AI/data science project hosting.
+
+With built-in tools like n8n, Marimo, PostgreSQL, Superset, and Redis, this stack enables you to:
+
+Automate data workflows (e.g., scrape APIs daily, clean and store results)
+
+Perform analytics and create dashboards (e.g., real-time sales monitoring, A/B test analysis)
+
+Host and run data science projects and AI apps (e.g., deploy ML notebooks, analyze customer insights, build RAG chatbots)
 
 - **n8n**: Workflow automation platform
 - **Marimo**: Interactive Python notebooks
@@ -10,9 +18,16 @@ A comprehensive Docker-based data analysis and workflow automation stack featuri
 
 ## Quick Start
 
+
+> **Requirements**:  
+> - [Docker](https://docs.docker.com/get-docker/) must be installed and running  
+> - [`make`](https://www.gnu.org/software/make/) is required  
+>   - Available by default on Linux/macOS  
+>   - For Windows, use WSL or install via [GnuWin](http://gnuwin32.sourceforge.net/packages/make.htm)
+
 1. **Clone and setup**:
    ```bash
-   git clone <your-repo>
+   git clone https://github.com/Medhatt21/data-pro.git
    cd data-pro
    ```
 
